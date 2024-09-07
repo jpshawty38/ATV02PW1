@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(https://www.okayplayer.com/media-library/travis-scott-performs-one-of-his-biggest-sets-to-date-performing-his-new-single-k-pop-and-revealing-more-details-about-his-u.jpg?id=34664211&width=1200&height=600&coordinates=0%2C201%2C0%2C-1);
+    background-size:100%;
+    background-repeat: repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 800;
+    transition: all 1s;
+}
+
+header a:hover {
+    color: white;
+}
+
+#paragrafo{
+    color: white;
+}
+
+#listas{
+    color: white;
+}
+
+#tabela{
+    color:aliceblue
+}
+
+#formulario {
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+#formulario input[type="text"],
+input[type="email"] {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+#formulario label {
+    color: white;
+}
+
+#formulario h2 {
+    color: white;
+    margin-left: 120px;
+}
+
+#formulario input[type="submit"] {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    transition: 1s;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 3px;
+}
+
+#formulario input[type="submit"]:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: black solid 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#aceito {
+    margin-top: 10px;
+    height: 10px;
+}
+
+
+
+#midias {
+    color: black;
+    text-align: center;
+}
+
+#midias img{
+    border-radius: 10px;
+}
+
+iframe {
+    margin-top:25px ;
+    border: none;
+    height: 500px;
+    width: 1000px;
+    margin-left: 23%;
+}
+
+
+footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    font: sora;
+    font-weight: 900;
+    padding-top: 40px;
+    text-decoration: none;
+    color:black;
+    
+}

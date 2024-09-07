@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="recurso de HTML 5">
+    <meta name="author" content="Lucas Luna e João Oliveira">
+    <link rel="stylesheet" href="style.css">
+    <title>ATEBUCANOS</title>
+</head>
+
+<body>
+
+
+    <!--CABEÇALHO-->
+    <header>
+        <!--TITULO-->
+        <h1>Explorando Recursos no HTML5</h1>
+
+        <!--NAV = NAVEGAÇÃO  ATRAVÉS DE LINKS-->
+        <nav>
+            <a href="#paragrafo">paragrafo</a>
+            <a href="#listas">lista</a>
+            <a href="#formulario">form</a>
+            <a href="#midias">midia</a>
+            <a href="#tabela">tabela</a>
+        </nav>
+    </header>
+    <main>
+
+        <section id="paragrafo">
+
+            <!--SUBTITULO-->
+            <h2>Paragrafos e formatação de textos</h2>
+
+            <!--P = PARAGRAFO & STRONG = NEGRITO-->
+            <p><strong>Caneta Azul</strong>&nbsp;Manoel Gomes</p>
+
+            <!-- EM = Texto em italico-->
+            <p><em>Caneta Azul</em>&nbsp;Manoel Gomes</p>
+
+            <p>O "hr" serve para colocar essas linha horizontal</p>
+            <p> O servidor <code>&lt;esta fora do ar&gt;</code></p>
+            <!--Lnha Horizontal-->
+        </section>
+
+
+        <!--Listas - Ordenadas e nao ordenadas-->
+        <section id="listas">
+            <h1>Listas</h1>
+
+            <!--Lista nao ordenada-->
+            <ul>
+                <li>item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <p><strong>A lista acima é uma lista <em>NAO ORDENADA</em></strong></p>
+
+            <!--Lista ordenada-->
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <p><strong>A lista acima é uma lista <em> ORDENADA</em></strong></p>
+        </section>
+
+        <!--Terceira section - TABELA-->
+        <section id="tabela">
+            <h2>Tabela</h2>
+
+            <table border="1">
+                <caption>Exemplo de Tabela</caption>
+                <!--CABEÇA DA TABELA-->
+                <thead>
+                    <tr>
+                        <th>Artista</th>
+                        <th>Música</th>
+                        <th>Genêro</th>
+                        <th>Bordão</th>
+                    </tr>
+                </thead>
+
+                <!--CORPO DA TABELA-->
+                <tbody>
+                    <tr>
+                        <td>Manoel Gomes</td>
+                        <td>Caneta Azul</td>
+                        <td>Não Identificado</td>
+                        <td>Meuzamigo </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Quarta Section - Form-->
+        <section id="formulario">
+            <h2>Form</h2>
+
+            <!--Formulario-->
+            <form action="#">
+
+                <!--Nome-->
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <!--Email-->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <!--Checkbox-->
+                <div class="checkbox">
+                    <input type="checkbox" name="aceito" id="aceito">
+                    <label for="checkbox" id="aceito">Aceito os termos</label>
+
+                </div>
+                <!--BOTÃO DE ENVIAR-->
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
+
+        <section id="midias">
+            <!--Foto com LINK-->
+            <h2>Foto & Link</h2>
+            <div class="imagem">
+                <a href="https://open.spotify.com/intl-pt/artist/0Y5tJX1MQlPlqiwlOH1tJY">
+                    <img
+                        src="https://www.billboard.com/wp-content/uploads/2023/07/travis-scott-02-press-2023-a-billboard-1548.jpg?w=942&h=623&crop=1"></a>
+            </div>
+        </section>
+
+        <iframe src="https://www.youtube.com/embed/7UHdopVoe-E?si=_C22oy0150I2tPgy" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    </main>
+    <footer>
+        <p>&copy; João Oliveira & Lucas Luna</p>
+    </footer>
+</body>
+
+</html>
